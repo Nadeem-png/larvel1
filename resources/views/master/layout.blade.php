@@ -16,6 +16,7 @@
             /*background-image: linear-gradient(to right,rgba(247, 252, 249,0.1),rgba(75, 79, 77,1));*/
             background-color: #31375D;
             font-family: Droid Sans Mono;
+            box-sizing: content-box;
 
         }
         .header{
@@ -37,30 +38,33 @@
 </head>
 <body style="">
 <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-white  p-3">
-        <a class="navbar-brand ml-5 text-dark
-         font-weight-bold" href="#"><img class="img-fluid rounded-circle" style="width: 100px;height: 100px" src={{asset('img/nadeem.jpeg')}}></a>
-        <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-white"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto mr-5"  style=";font-size: 19px">
-                <li class="nav-item active">
-                    <a class="nav-link mr-3 text-white" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mr-3 text-white" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mr-3 text-white" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white " href="#">Contact</a>
-                </li>
-
-            </ul>
-        </div>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">
+      <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+    </a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
     <div class="d-flex justify-content-between flex-column align-items-end text-white container  mt-5" style="font-family: 'Droid Sans Mono'">
          <h2>Hey there!</h2>
         <h2>I'm Nadeem Khan</h2>
