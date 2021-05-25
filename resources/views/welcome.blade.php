@@ -85,27 +85,7 @@ hr{
          </div>
      </div>
  </div>
- <h3 class="mb-3 font-weight-bold mt-5 text-center text-white">About Me</h3>
-    <div class="text-center text-white div1 container-sm px-2 py-3">
-
-
-            <p>User experience (UX) design is the process design<br> teams use to create products.<br>
-                User experience (UX) design is the process design<br> teams use to create products.</p>
-    </div>
- <div style="text-align: center;margin-bottom: 20px;padding: 20px" class="mt-3">
-     <a href="">
-         <i class="fa fa-facebook fa-2x mr-3 text-white"></i>
-     </a>
-     <a href="">
-         <i class="fa fa-twitter fa-2x mr-3 text-white"></i>
-     </a>
-     <a href="">
-         <i class="fa fa-instagram fa-2x mr-3 text-white"></i>
-     </a>
-     <a href="">
-         <i class="fa fa-linkedin fa-2x text-white"></i>
-     </a>
- </div>
+ 
     <div class="container">
         <h2 class="text-white text-center mb-4">Experience</h2>
         <hr>
