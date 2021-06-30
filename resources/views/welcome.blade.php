@@ -1,90 +1,10 @@
 @extends('master/layout')
 @section('content')
  <style>
-     .div1{
-         background-image: linear-gradient(to right,rgba(255, 17, 0,0.8),rgba(245, 217, 10,0.5));
-         width: 500px;
-         border-radius: 10px;
-         background-position: center;
-     }
-     .div3{
-         border-radius: 6px;
-         padding: 10px;
-         box-shadow: white;
-         margin-left: 30px;
-         margin-right: 20px;
-     }
-     .div2{
-         border-radius: 6px;
-     }
-hr{
-    width: 20%;
-    border-bottom: 2px solid red;
-}
-     .div5{
-         background-color: #fcf9e1;
-     }
-.about{
-    background-image: url({{asset("img/bg1.jpg")}});
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height:400px;
-}
-     .bg3{
-
-         background-image: url({{asset("img/bg6.jpg")}});
-         background-repeat: no-repeat;
-         background-size: cover;
-         background-position: center;
-         width: 100%;
-         height:530px;
-     }
+   
 
 
  </style>
- <div class="about">
-     <div class="container-lg container-fluid">
-         <h2 class=" mb-2 py-4 font-weight-bold">About Me</h2>
-         <h5>Hey there!I'm Nadeem Khan Full stack web<br><strong> Developer.</strong>
-         My role is writting and style the<br>fornt-end components and back-end components<br>
-             that meet the requirements of our mocks and<br> fulfill our user requirements. I also
-             monitor and<br> process pull request for production deployments.
-
-         </h5>
-     </div>
- </div>
- <div class=" bg3">
-
-     <div class="container d-flex justify-content-end align-items-end text-dark flex-column">
-         <h1 class="mt-5 mb-4 " style="margin-right: 190px">I am specialized in</h1>
-         <div class="row">
-             <div class="col-2">
-             </div>
-             <div class="col-10">
-<h3>Web UI Design</h3>
-                 <p>I am professional UI designer with 1 year of experience.My main focus is on listening</p>
-             </div>
-         </div>
-         <div class="row">
-             <div class="col-2">
-             </div>
-             <div class="col-10">
-                 <h3>Web UI Design</h3>
-                 <p>I am professional UI designer with 1 year of experience.My main focus is on listening</p>
-             </div>
-         </div>
-         <div class="row">
-             <div class="col-2">
-             </div>
-             <div class="col-10">
-                 <h3>Web UI Design</h3>
-                 <p>I am professional UI designer with 1 year of experience.My main focus is on listening</p>
-             </div>
-         </div>
-     </div>
- </div>
  
     <div class="container">
         <h2 class="text-white text-center mb-4">Experience</h2>
