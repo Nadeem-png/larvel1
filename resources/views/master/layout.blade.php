@@ -16,58 +16,65 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <style>
-        body{
-            /*background-image: linear-gradient(to right,rgba(247, 252, 249,0.1),rgba(75, 79, 77,1));*/
-            background-color: #31375D;
-            font-family: Droid Sans Mono;
-            box-sizing: content-box;
+        .a1{
+                color: white;
+            }
 
-        }
-        .header{
-            background-image: url({{asset("img/bg.jpg")}});
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-            height: 630px;
-        }
-        li:hover{
-            border-bottom:2px solid brown;
-        }
-        .btn:hover{
-            background:lightskyblue;
-            text-decoration: none;
-        }
+            .a1:hover{
+                color: lightcyan;
+            }
+             .navbar-nav{
+            
+            z-index:1000;
+            background-color:#0b5262;
+            }
+           .navbar-collapse{
+            
+            z-index:1000;
+        
+            }
+            
     </style>
 </head>
 <body style="">
-<header class="header">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">
-      <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
-    </a>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+<nav class="navbar nav1   navbar-expand-lg"style="height: 70px;background-color:#0b5262"">
+<div class="w-25">
+        <a href="/" class="navbar-brand">
+            <img src="{{asset('image/project2.jpg.png')}}" class="img-fluid w-50 h-50" style="margin-left:185px">
+        </a>
     </div>
-  </div>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mynav"><i class="fas fa-bars text-white"></i></button>
+    
+    <div class="navbar-collapse   collapse" id="mynav">
+        <ul class="navbar-nav  ">
+        <li class="nav-item" @yield('nava')>
+                    <a href="/" class="nav-link a1  ml-5 font-weight-bold">Home</a>
+                </li>
+            <li class="nav-item" @yield('nava')>
+                <a href="/about" class="nav-link a1 ml-5 font-weight-bold">About</a>
+            </li>
+
+            <li class="nav-item" @yield('nava')>
+                <a href="/blog" class="nav-link a1 ml-5 font-weight-bold">Blog</a>
+            </li>
+
+            <li class="nav-item" @yield('nava')>
+                <a href="/event" class="nav-link a1 ml-5 font-weight-bold">Event</a>
+            </li>
+
+            <li class="nav-item" @yield('nava')>
+                <a href="/contact" class="nav-link a1 ml-5 font-weight-bold">contact</a>
+            </li>
+
+            <li class="nav-item" @yield('nava')>
+                <a href="/faq" class="nav-link a1 ml-5 font-weight-bold">FAQ</a>
+            </li>
+
+            
+
+
+        </ul>
+    </div>
 </nav>
   <!--   <div class="d-flex justify-content-between flex-column align-items-end text-white container  mt-5" style="font-family: 'Droid Sans Mono'">
          <h2>Hey there!</h2>
@@ -76,7 +83,6 @@
         <h2> And Independent <span class="text-info">Frelencer</span></h2>
         <button class="btn btn-primary mt-4 " style="padding: 10px 30px;border-radius: 6px "><a href="" class="text-white" >Resume</a></button>
     </div> -->
-</header>
 
 @yield('content')
 </body>
