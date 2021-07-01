@@ -26,7 +26,7 @@
              .navbar-nav{
             
             z-index:1000;
-            background-color:#0b5262;
+            background-color:#2f3640;
             }
            .navbar-collapse{
             
@@ -55,11 +55,11 @@
             </li>
 
             <li class="nav-item" @yield('nava')>
-                <a href="/blog" class="nav-link a1 ml-5 font-weight-bold">Blog</a>
+                <a href="/blog" class="nav-link a1 ml-5 font-weight-bold">Portfolio</a>
             </li>
 
             <li class="nav-item" @yield('nava')>
-                <a href="/event" class="nav-link a1 ml-5 font-weight-bold">Event</a>
+                <a href="/event" class="nav-link a1 ml-5 font-weight-bold">Pricing</a>
             </li>
 
             <li class="nav-item" @yield('nava')>
