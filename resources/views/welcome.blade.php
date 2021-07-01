@@ -194,17 +194,17 @@ footer{
     <div class="row">
     <div class="col-12 col-lg-7 mt-4 text-center">
     
-    <a href="" class="ml-4 ">
+    <a href="https://www.linkedin.com/in/nadeem-khan-3b1924207" class="ml-4 ">
             <i class="fab fa-linkedin-in text-white" style="font-size: 25px"></i>
         </a>
-        <a href="" class="ml-4 ">
+        <a href="https://www.facebook.com/profile.php?id=100012136065724" class="ml-4 ">
             <i class="fab fa-facebook-f text-white" style="font-size: 25px"></i>
         </a>
         
-        <a href="" class="ml-4 ">
+        <a href="https://www.instagram.com/invites/contact/?i=ntoc7orpkvy9&utm_content=1if40bc" class="ml-4 ">
             <i class="fab fa-instagram text-white" style="font-size: 25px"></i>
         </a>
-<a href="" class="ml-4 ">
+<a href="https://github.com/Nadeem-png" class="ml-4 ">
             <i class="fab fa-github text-white" style="font-size: 25px"></i>
         </a>
     </div>
