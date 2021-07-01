@@ -1,74 +1,116 @@
 @extends('master/layout')
 @section('content')
  <style>
-   
 
+.contactbg{
+    background-color:#2f3640;
+}
+footer{
+    background-color:#191a1c;
+}
 
  </style>
- 
-    <div class="div5">
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-lg-6 col-sm-8 col-md-6 ">
-                    <div class=" mt-5">
-                        <p class="text-primary">Get In Touch</p>
-                        <h3>Talk Or Meet with Me</h3>
-                        <div class="row mt-5">
-                            <div class="col-2">
-                                <i class="fa fa-phone-alt fa-2x "></i>
-                            </div>
-                            <div class="col">
-                                <p class="text-primary">Call Me Now</p>
-                                <h5>+923017334787</h5>
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-2">
-                                <i class="fa fa-phone-alt fa-2x "></i>
-                            </div>
-                            <div class="col">
-                                <p class="text-primary">Call Me Now</p>
-                                <h5>+923017334787</h5>
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-2">
-                                <i class="fa fa-phone-alt fa-2x "></i>
-                            </div>
-                            <div class="col">
-                                <p class="text-primary">Call Me Now</p>
-                                <h5>+923017334787</h5>
-                            </div>
-                        </div>
+ <!-- <video autoplay="autoplay" muted loop id="myvideo">
+ <source src="{{asset('video/Technology.mov')}}" type="video/movn">
+ </video> -->
+ <div class="container container-sm mt-5">
+ <h3 class="text-center" >About</h3>
+ <div class="row ">
+ <div class="col-12 col-lg-3 col-md-6 text-center">
+ <img src="" alt="" class="img-fluid">
+ <h4>Fast</h4>
+ <p>Fast load time and lag free interaction, my highest priority</p>
+ </div>
+ <div class="col-12 col-lg-3 col-md-6 text-center">
+ <img src="" alt=""  class="img-fluid">
+ <h4>Responsive</h4>
+ <p>My layout will work on any device , large and small.</p>
+ </div>
+ <div class="col-12 col-lg-3 col-md-6 text-center">
+ <img src="" alt=""  class="img-fluid">
+ <h4>Intuitive</h4>
+ <p>Strong preference for easy to use. Intuitive UX/Ui</p>
+ </div>
+ <div class="col-12 col-lg-3 col-md-6 text-center">
+ <img src="" alt="" class="img-fluid">
+ <h4>Dynamic</h4>
+ <p>Website Don't have to be static. i love making pages come to life.</p>
+ </div>
+ </div>
+ </div>
+ <div class="container container-sm mt-5">
+ <div class="row">
+ <div class="col-12 col-lg-6 text-center mt-4">
+ <img src="{{asset('img/nadeem.jpeg')}}" alt="" class="img-fluid rounded-circle" height="150px" width="150px">
+ <h4 class="mt-3">Who's this guy?</h4>
+ <p>Hi,I am Nadeem khan. I am Front-End and Back-end Developer.</p>
+ <p>I have Serious passion for UI effects. Animations and creating intuitive, dynamic user experiences</p>
+ <p style="color:#079992">Let's Make something special</p>
+ </div>
+ <div class="col-12 col-lg-6 mt-4">
+    <div class="progress mb-4">
+    <div class="progress-bar " style="width:90%">html <span class="ml-auto">90%</span></div>
+    </div>
+    <div class="progress mb-4">
+    <div class="progress-bar" style="width:90%">Css<span class="ml-auto">90%</span></div>
+    </div>
+    <div class="progress mb-4">
+    <div class="progress-bar" style="width:70%">Jquery<span class="ml-auto">70%</span></div>
+    </div>
+    <div class="progress mb-4">
+    <div class="progress-bar " style="width:90%">Bootstrap <span class="ml-auto">90%</span></div>
+    </div>
+    <div class="progress mb-4">
+    <div class="progress-bar " style="width:80%">PHP <span class="ml-auto">80%</span></div>
+    </div>
+    <div class="progress mb-4">
+    <div class="progress-bar " style="width:80%">Laravel <span class="ml-auto">80%</span></div>
+    </div>
+    <div class="progress mb-4">
+    <div class="progress-bar " style="width:80%">MySQL <span class="ml-auto">80%</span></div>
+    </div>
+    <div class="progress mb-4">
+    <div class="progress-bar " style="width:80%">React.js <span class="ml-auto">80%</span></div>
+    </div>
+    <div class="progress mb-4">
+    <div class="progress-bar " style="width:80%">Material-UI <span class="ml-auto">80%</span></div>
+    </div>
+    <div class="progress mb-4">
+    <div class="progress-bar " style="width:80%">Node.js <span class="ml-auto">80%</span></div>
+    </div>
+ </div>
+ </div>
+ </div>
 
-                    </div>
+ 
+    <div class="contactbg">
+        <div class="container container-sm mt-5">
+            <div class="row mx-auto">
+                <div class="col-lg-6 col-12 text-center ">
+                  <u class="text-white"><h1 class="text-white mt-5 font-weight-bold">CONTACT</h1></u> 
+                   <h6 class="mt-5 "style="color:#079992">Have a question or want to work togather?</h6>
 
                 </div>
-                <div class="col-lg-6 col-md-6 ">
-                    <div class=" mt-5">
-                        <p class="text-primary">Contact us</p>
-                        <h3>Let Me know Here Know Here</h3>
+                <div class="col-lg-6 col-12 mt-5 text-white mb-5">
+                   
                         <div class="col-12 mt-3">
-                            <label style="font-weight: bold;" class="mb-2">First Name</label>
-                            <input type="text" placeholder="first name.." class="form-control @error('fname')is-invalid @enderror" name="fname" value="{{old('fname')}}">
+                            <label style="font-weight: bold;" class="mb-2">Name</label>
+                            <input type="text" placeholder="Enter name.." class="form-control border border-dark bg-dark @error('fname')is-invalid @enderror" name="fname" value="{{old('fname')}}">
                         </div>
-                        <div class="col-12 mt-3">
-                            <label style="font-weight: bold;" class="mb-2">Last Name</label>
-                            <input type="text" placeholder="last name.." class="form-control @error('lname')is-invalid @enderror" name="lname" value="{{old('lname')}}">
-                        </div>
+                    
                         <div class="col-12 mt-3">
                             <label style="font-weight: bold;" class="mb-2">Email</label>
-                            <input type="text" placeholder="Enter Email Address" class="form-control @error('email')is-invalid @enderror" name="email" value="{{old('email')}}">
+                            <input type="text" placeholder="Enter Email Address" class="form-control border border-dark bg-dark @error('email')is-invalid @enderror" name="email" value="{{old('email')}}">
                         </div>
                         <div class="col-12 mt-3">
                             <label style="font-weight: bold;" class="mb-2">Comment or Message </label>
-                            <textarea class="form-control @error('remarks')is-invalid @enderror" placeholder="Type Message..." style="resize: none;" rows="5" name="remarks" >{{old('remarks')}}</textarea>
+                            <textarea class="form-control border border-dark bg-dark @error('remarks')is-invalid @enderror" placeholder="Type Message..." style="resize: none;" rows="5" name="remarks" >{{old('remarks')}}</textarea>
                         </div>
-                        <button class="btn btn-success mt-3 ml-4">Submit</button>
+                        <button class="btn border border-white text-white px-4 mt-4 ml-4">Submit</button>
                         @csrf
 
 
-                    </div>
+                
                 </div>
 
             </div>
@@ -77,6 +119,30 @@
             </div>
         </div>
     </div>
+
+    <footer class="footor">
+    <div class="container container-sm">
+    <div class="row">
+    <div class="col-12 col-lg-7 mt-4 text-center">
+    
+    <a href="" class="ml-4 ">
+            <i class="fab fa-linkedin-in text-white" style="font-size: 25px"></i>
+        </a>
+        <a href="" class="ml-4 ">
+            <i class="fab fa-facebook-f text-white" style="font-size: 25px"></i>
+        </a>
+        
+        <a href="" class="ml-4 ">
+            <i class="fab fa-instagram text-white" style="font-size: 25px"></i>
+        </a>
+    </div>
+    <div class="col-12 col-lg-5 text-center mt-4 mb-3">
+    <h6 class="text-white">NADEEM KHAN <span class="text-danger">&copy;2021</span></h6>
+    </div>
+    </div>
+    
+    </div>
+    </footer>
 @endsection
 
 @section('title','Home')
