@@ -23,9 +23,9 @@ footer{
 }
 
  </style>
- <!-- <video autoplay="autoplay" muted loop id="myvideo">
- <source src="{{asset('video/Technology.mov')}}" type="video/movn">
- </video> -->
+ <video autoplay="autoplay" muted loop id="myvideo" height="500px" width="75%">
+ <source src="img/network.mp4" type="video/mp4">
+ </video>
  <div class="container container-sm mt-5">
  <u ><h3 class="text-center mb-5" >About</h3></u>
  <div class="row ">
