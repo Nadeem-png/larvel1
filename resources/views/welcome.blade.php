@@ -204,6 +204,9 @@ footer{
         <a href="" class="ml-4 ">
             <i class="fab fa-instagram text-white" style="font-size: 25px"></i>
         </a>
+<a href="" class="ml-4 ">
+            <i class="fab fa-github text-white" style="font-size: 25px"></i>
+        </a>
     </div>
     <div class="col-12 col-lg-5 text-center mt-4 mb-3">
     <h6 class="text-white">NADEEM KHAN <span class="text-danger">&copy;2021</span></h6>
