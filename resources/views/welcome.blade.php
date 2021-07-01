@@ -8,6 +8,14 @@
 footer{
     background-color:#191a1c;
 }
+.pricing{
+    background-color:#2f3640;
+    width:100%;
+    height:auto;
+}
+.card1{
+    border-radius:10px;
+}
 
  </style>
  <!-- <video autoplay="autoplay" muted loop id="myvideo">
@@ -82,6 +90,67 @@ footer{
  </div>
  </div>
 
+
+<div class="pricing">
+<div class="container container-sm">
+<h3 class="text-center py-5 text-white">PRICING PER BUILD</h3>
+<div class="row">
+<div class="col-12 col-lg-4 mb-5">
+<div class="card card1 h-100 text-center">
+  <div class="card-header font-weight-bold ">
+    BASIC
+  </div>
+  <div class="card-body">
+    <h6 class="card-text mb-3">Website Audit</h6>
+    <h6 class="card-text mb-3">Design</h6>
+    <h6 class="card-text mb-4">Development</h6>
+    <a href="#" class="btn btn-outline-dark rounded-pill mb-2">Request Quote</a>
+  </div>
+</div>
+
+</div>
+<div class="col-12 col-lg-4 mb-5">
+<div class="card card1 h-100 text-center">
+  <div class="card-header font-weight-bold bg-primary ">
+    STANDARD
+  </div>
+  <div class="card-body">
+    <h6 class="card-text mb-3">Website Audit</h6>
+    <h6 class="card-text mb-3">Design</h6>
+    <h6 class="card-text mb-4">Development</h6>
+    <h6 class="card-text mb-4">Backups</h6>
+    <h6 class="card-text mb-4">Analytics</h6>
+    <h6 class="card-text mb-4">Live Chat</h6>
+    <h6 class="card-text mb-4">SEO</h6>
+    <h6 class="card-text mb-4">CMS</h6>
+    <a href="#" class="btn btn-outline-primary rounded-pill mb-2">Request Quote</a>
+  </div>
+</div>
+
+</div>
+<div class="col-12 col-lg-4 mb-5">
+<div class="card card1 h-100 text-center">
+  <div class="card-header font-weight-bold bg-warning ">
+    PREMIUM
+  </div>
+  <div class="card-body">
+  <h6 class="card-text mb-3">Website Audit</h6>
+    <h6 class="card-text mb-3">Design</h6>
+    <h6 class="card-text mb-4">Development</h6>
+    <h6 class="card-text mb-4">Backups</h6>
+    <h6 class="card-text mb-4">Analytics</h6>
+    <h6 class="card-text mb-4">Live Chat</h6>
+    <h6 class="card-text mb-4">SEO</h6>
+    <h6 class="card-text mb-4">CMS</h6>
+    <a href="#" class="btn btn-outline-warning rounded-pill mb-2">Request Quote</a>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
  
     <div class="contactbg">
         <div class="container container-sm mt-5">
