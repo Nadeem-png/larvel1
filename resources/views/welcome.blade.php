@@ -25,6 +25,10 @@ footer{
  </style>
  <video autoplay="autoplay" muted loop id="myvideo" height="auto" width="100%">
  <source src="img/network.mp4" type="video/mp4" >
+<div class="container container-sm mt-5 text-center text-white">
+<h1>Hey there,I am</h1>
+<h2>Nadeem KHAN full stack web developer</h2>
+</div>
  </video>
  <div class="container container-sm mt-5">
  <u ><h3 class="text-center mb-5" >About</h3></u>
