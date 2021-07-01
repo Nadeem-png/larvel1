@@ -23,7 +23,7 @@ footer{
 }
 
  </style>
- <video autoplay="autoplay" muted loop id="myvideo" height="900px" width="100%">
+ <video autoplay="autoplay" muted loop id="myvideo" height="auto" width="100%">
  <source src="img/network.mp4" type="video/mp4">
  </video>
  <div class="container container-sm mt-5">
