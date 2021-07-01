@@ -22,27 +22,27 @@ footer{
  <source src="{{asset('video/Technology.mov')}}" type="video/movn">
  </video> -->
  <div class="container container-sm mt-5">
- <h3 class="text-center" >About</h3>
+ <u ><h3 class="text-center mb-5" >About</h3></u>
  <div class="row ">
  <div class="col-12 col-lg-3 col-md-6 text-center">
- <a href=""><i class="fas fa-tachometer-alt-fastest"></i></a>
+ <a href=""><i class="fas fa-tachometer-alt fa-4x text-dark"></i></a>
  <h4>Fast</h4>
  <p>Fast load time and lag free interaction, my highest priority</p>
  </div>
  <div class="col-12 col-lg-3 col-md-6 text-center">
- <a href=""><i class="fas fa-tachometer-alt-fastest "></i></a>
+ <a href=""><i class="fas fa-tablet-alt fa-4x text-dark"></i></i></a>
  
  <h4>Responsive</h4>
  <p>My layout will work on any device , large and small.</p>
  </div>
  <div class="col-12 col-lg-3 col-md-6 text-center">
- <a href=""><i class="fas fa-tachometer-alt-fastest "></i></a>
+ <a href=""><i class="fas fa-layer-group  fa-4x text-dark"></i></a>
  
  <h4>Intuitive</h4>
  <p>Strong preference for easy to use. Intuitive UX/Ui</p>
  </div>
  <div class="col-12 col-lg-3 col-md-6 text-center">
- <a href=""><i class="fas fa-tachometer-alt-fastest "></i></a>
+ <a href=""><i class="fas fa-cogs fa-4x text-dark"></i></a>
  
  <h4>Dynamic</h4>
  <p>Website Don't have to be static. i love making pages come to life.</p>
