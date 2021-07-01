@@ -118,25 +118,25 @@ footer{
 </ul>
 <div class="tab-content text-center" id="pills-tabContent">
   <div class="tab-pane fade  text-white show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-  <img src="{{asset('img/img4.jpeg')}}" alt="" class="img-fluid mb-3">
+  <img src="{{asset('img/shadow.1add9ee7.png')}}" alt="" class="img-fluid mb-3">
   <h4>Agyle Intelligence</h4>
   <p>A platform for automating data collection and reporting throughout team operation and supply chain.</p>
   <a href="" class="btn btn-outline-danger rounded-pill px-4">Visit site</a>
   </div>
   <div class="tab-pane fade text-white" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-  <img src="{{asset('img/img4.jpeg')}}" alt="" class="img-fluid mb-3">
+  <img src="{{asset('img/shadow.1add9ee7.png')}}" alt="" class="img-fluid mb-3">
   <h4>Agyle Intelligence</h4>
   <p>A platform for automating data collection and reporting throughout team operation and supply chain.</p>
   <a href="" class="btn btn-outline-danger rounded-pill px-4">Visit site</a>
   </div>
   <div class="tab-pane fade  text-white" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-  <img src="{{asset('img/img4.jpeg')}}" alt="" class="img-fluid mb-3">
+  <img src="{{asset('img/shadow.1add9ee7.png')}}" alt="" class="img-fluid mb-3">
   <h4>Agyle Intelligence</h4>
   <p>A platform for automating data collection and reporting throughout team operation and supply chain.</p>
   <a href="" class="btn btn-outline-danger rounded-pill px-4">Visit site</a>
   </div>
 <div class="tab-pane fade  text-white" id="pills" role="tabpanel" aria-labelledby="pills-contact-tab">
-<img src="{{asset('img/img4.jpeg')}}" alt="" class="img-fluid mb-3">
+<img src="{{asset('img/shadow.1add9ee7.png')}}" alt="" class="img-fluid mb-3">
   <h4>Agyle Intelligence</h4>
   <p>A platform for automating data collection and reporting throughout team operation and supply chain.</p>
   <a href="" class="btn btn-outline-danger rounded-pill px-4">Visit site</a>
