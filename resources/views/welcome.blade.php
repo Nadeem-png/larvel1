@@ -25,22 +25,25 @@ footer{
  <h3 class="text-center" >About</h3>
  <div class="row ">
  <div class="col-12 col-lg-3 col-md-6 text-center">
- <i class="fas fa-tachometer-alt-fastest text-success fa-4x"></i>
+ <a href=""><i class="fas fa-tachometer-alt-fastest text-success fa-4x"></i></a>
  <h4>Fast</h4>
  <p>Fast load time and lag free interaction, my highest priority</p>
  </div>
  <div class="col-12 col-lg-3 col-md-6 text-center">
- <img src="" alt=""  class="img-fluid">
+ <a href=""><i class="fas fa-tachometer-alt-fastest text-success fa-4x"></i></a>
+ 
  <h4>Responsive</h4>
  <p>My layout will work on any device , large and small.</p>
  </div>
  <div class="col-12 col-lg-3 col-md-6 text-center">
- <img src="" alt=""  class="img-fluid">
+ <a href=""><i class="fas fa-tachometer-alt-fastest text-success fa-4x"></i></a>
+ 
  <h4>Intuitive</h4>
  <p>Strong preference for easy to use. Intuitive UX/Ui</p>
  </div>
  <div class="col-12 col-lg-3 col-md-6 text-center">
- <img src="" alt="" class="img-fluid">
+ <a href=""><i class="fas fa-tachometer-alt-fastest text-success fa-4x"></i></a>
+ 
  <h4>Dynamic</h4>
  <p>Website Don't have to be static. i love making pages come to life.</p>
  </div>
