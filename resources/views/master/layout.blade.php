@@ -37,7 +37,7 @@
     </style>
 </head>
 <body style="">
-<nav class="navbar nav1   navbar-expand-lg"style="height: 70px;background-color:#0b5262"">
+<nav class="navbar nav1   navbar-expand-lg"style="height: 70px;background-color:#2f3640 ">
 <div class="w-25">
         <a href="/" class="navbar-brand">
             <img src="{{asset('image/project2.jpg.png')}}" class="img-fluid w-50 h-50" style="margin-left:185px">
@@ -46,7 +46,7 @@
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mynav"><i class="fas fa-bars text-white"></i></button>
     
     <div class="navbar-collapse   collapse" id="mynav">
-        <ul class="navbar-nav  ">
+        <ul class="navbar-nav mt-5 ">
         <li class="nav-item" @yield('nava')>
                     <a href="/" class="nav-link a1  ml-5 font-weight-bold">Home</a>
                 </li>
