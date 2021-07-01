@@ -25,7 +25,7 @@ footer{
  <h3 class="text-center" >About</h3>
  <div class="row ">
  <div class="col-12 col-lg-3 col-md-6 text-center">
- <img src="" alt="" class="img-fluid">
+ <i class="fas fa-tachometer-alt-fastest text-success fa-4x"></i>
  <h4>Fast</h4>
  <p>Fast load time and lag free interaction, my highest priority</p>
  </div>
