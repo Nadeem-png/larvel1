@@ -32,7 +32,7 @@
 .back-to-top {
  position: fixed;
  bottom: 30px;
- right: 30px;
+ right: 12px;
  width: 64px;
  height: 64px;
  z-index: 9999;
@@ -121,7 +121,7 @@ $(document).ready(function(){
 
 @yield('content')
 <!-- Back to top -->
-<a href="#" class="back-to-top">^</a>
+<a href="#" class="back-to-top"><i class="fas fa-arrow-circle-up fa-3x text-dark"></i></a>
 <script>
   AOS.init();
 </script>
