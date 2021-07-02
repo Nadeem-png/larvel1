@@ -121,7 +121,7 @@ $(document).ready(function(){
 
 @yield('content')
 <!-- Back to top -->
-<a href="#" class="back-to-top"><i class="fas fa-arrow-circle-up fa-3x text-dark"></i></a>
+<a href="#" class="back-to-top"><i class="fas fa-arrow-circle-up fa-3x text-dark-50"></i></a>
 <script>
   AOS.init();
 </script>
