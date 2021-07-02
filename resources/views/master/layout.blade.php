@@ -51,23 +51,23 @@
                     <a href="/" class="nav-link a1  ml-5 font-weight-bold">Home</a>
                 </li>
             <li class="nav-item" @yield('nava')>
-                <a href="/about" class="nav-link a1 ml-5 font-weight-bold">About</a>
+                <a href="#about" class="nav-link a1 ml-5 font-weight-bold">About</a>
             </li>
 
             <li class="nav-item" @yield('nava')>
-                <a href="/blog" class="nav-link a1 ml-5 font-weight-bold">Portfolio</a>
+                <a href="#portfolio" class="nav-link a1 ml-5 font-weight-bold">Portfolio</a>
             </li>
 
             <li class="nav-item" @yield('nava')>
-                <a href="/event" class="nav-link a1 ml-5 font-weight-bold">Pricing</a>
+                <a href="#pricing" class="nav-link a1 ml-5 font-weight-bold">Pricing</a>
             </li>
 
             <li class="nav-item" @yield('nava')>
-                <a href="/contact" class="nav-link a1 ml-5 font-weight-bold">contact</a>
+                <a href="#contact" class="nav-link a1 ml-5 font-weight-bold">contact</a>
             </li>
 
             <li class="nav-item" @yield('nava')>
-                <a href="/faq" class="nav-link a1 ml-5 font-weight-bold">FAQ</a>
+                <a href="" class="nav-link a1 ml-5 font-weight-bold">FAQ</a>
             </li>
 
             
