@@ -33,29 +33,41 @@ footer{
  <div class="container container-sm mt-5">
  <u ><h3 class="text-center mb-5" >About</h3></u>
  <div class="row ">
+<div data-aos="fade-up"
+     data-aos-duration="3000">
  <div class="col-12 col-lg-3 col-md-6 text-center">
  <a href=""><i class="fas fa-tachometer-alt fa-4x text-dark"></i></a>
  <h4>Fast</h4>
  <p>Fast load time and lag free interaction, my highest priority</p>
  </div>
+</div>
+<div data-aos="fade-up"
+     data-aos-duration="3000">
  <div class="col-12 col-lg-3 col-md-6 text-center">
  <a href=""><i class="fas fa-tablet-alt fa-4x text-dark"></i></i></a>
  
  <h4>Responsive</h4>
  <p>My layout will work on any device , large and small.</p>
  </div>
+</div>
+<div data-aos="fade-up"
+     data-aos-duration="3000">
  <div class="col-12 col-lg-3 col-md-6 text-center">
  <a href=""><i class="fas fa-layer-group  fa-4x text-dark"></i></a>
  
  <h4>Intuitive</h4>
  <p>Strong preference for easy to use. Intuitive UX/Ui</p>
  </div>
+</div>
+<div data-aos="fade-up"
+     data-aos-duration="3000">
  <div class="col-12 col-lg-3 col-md-6 text-center">
  <a href=""><i class="fas fa-cogs fa-4x text-dark"></i></a>
  
  <h4>Dynamic</h4>
  <p>Website Don't have to be static. i love making pages come to life.</p>
  </div>
+</div>
  </div>
  </div>
  <div class="container container-sm mt-5">
@@ -157,6 +169,8 @@ footer{
 <h3 class="text-center py-5 text-white">PRICING PER BUILD</h3>
 <div class="row">
 <div class="col-12 col-lg-4 mb-5">
+<div data-aos="fade-up"
+     data-aos-duration="3000">
 <div class="card card1 h-100 text-center">
   <div class="card-header font-weight-bold ">
     BASIC
@@ -168,9 +182,11 @@ footer{
     <a href="#" class="btn btn-outline-dark rounded-pill mb-2">Request Quote</a>
   </div>
 </div>
-
+</div>
 </div>
 <div class="col-12 col-lg-4 mb-5">
+<div data-aos="fade-up"
+     data-aos-duration="3000">
 <div class="card card1 h-100 text-center">
   <div class="card-header font-weight-bold bg-primary ">
     STANDARD
@@ -187,9 +203,11 @@ footer{
     <a href="#" class="btn btn-outline-primary rounded-pill mb-2">Request Quote</a>
   </div>
 </div>
-
+</div>
 </div>
 <div class="col-12 col-lg-4 mb-5">
+<div data-aos="fade-up"
+     data-aos-duration="3000">
 <div class="card card1 h-100 text-center">
   <div class="card-header font-weight-bold bg-warning ">
     PREMIUM
@@ -206,7 +224,7 @@ footer{
     <a href="#" class="btn btn-outline-warning rounded-pill mb-2">Request Quote</a>
   </div>
 </div>
-
+</div>
 </div>
 </div>
 </div>
@@ -215,6 +233,8 @@ footer{
  
     <div class="contactbg">
         <div class="container container-sm mt-5">
+<div data-aos="fade-up"
+     data-aos-duration="3000">
             <div class="row mx-auto">
                 <div class="col-lg-6 col-12 text-center ">
                   <u class="text-white"><h1 class="text-white mt-5 font-weight-bold">CONTACT</h1></u> 
@@ -247,12 +267,14 @@ footer{
 
                 </div>
             </div>
+</div>
         </div>
     </div>
 
     <footer class="footor">
     <div class="container container-sm">
     <div class="row">
+<div data-aos="zoom-in">
     <div class="col-12 col-lg-7 mt-4 text-center">
     
     <a href="https://www.linkedin.com/in/nadeem-khan-3b1924207" class="ml-4 ">
@@ -269,9 +291,12 @@ footer{
             <i class="fab fa-github text-white" style="font-size: 25px"></i>
         </a>
     </div>
+</div>
     <div class="col-12 col-lg-5 text-center mt-4 mb-3">
+<div data-aos="zoom-in">
     <h6 class="text-white">NADEEM KHAN <span class="text-danger">&copy;2021</span></h6>
     </div>
+</div>
     </div>
     
     </div>
