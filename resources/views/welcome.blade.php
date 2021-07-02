@@ -72,8 +72,8 @@ header .overlay {
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        <h1 class="display-3">Video Header</h1>
-        <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
+        <h1 class="display-4">Nadeem khan WordPress & Web App Development</h1>
+        <p class="lead mb-0">Specializing in custom development, forntend & backend.If you are business seeking website presence or are looking to hire , Contact me.</p>
       </div>
     </div>
   </div>
