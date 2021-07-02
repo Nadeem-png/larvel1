@@ -35,8 +35,6 @@ footer{
 <div data-aos="fade-up"
      data-aos-duration="3000">
  <div class="row ">
-<div data-aos="fade-up"
-     data-aos-duration="3000">
  <div class="col-12 col-lg-3 col-md-6 text-center">
  <a href=""><i class="fas fa-tachometer-alt fa-4x text-dark"></i></a>
  <h4>Fast</h4>
