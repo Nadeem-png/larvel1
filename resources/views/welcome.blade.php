@@ -161,6 +161,21 @@ header .overlay {
  </div>
  </div>
 </section>
+
+<section id="education">
+ <div class="container container-sm mt-5">
+ <u><h3 class="text-center mb-5" >Education</h3></u>
+<div class="row ">
+ <div class="col-12 col-lg-6 col-md-6 text-center">
+<img src="{{asset('img/')}}" alt="img" class="img-fluid mb-3">
+</div>
+ <div class="col-12 col-lg-6 col-md-6 text-center">
+
+</div>
+</div>
+</div>
+</section>
+
 <section id="portfolio">
  <div class="portfolio">
 <div class="container container-sm">
