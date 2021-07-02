@@ -274,7 +274,7 @@ footer{
     <footer class="footor">
     <div class="container container-sm">
     <div class="row">
-<div data-aos="zoom-in">
+
     <div class="col-12 col-lg-7 mt-4 text-center">
     
     <a href="https://www.linkedin.com/in/nadeem-khan-3b1924207" class="ml-4 ">
@@ -290,13 +290,13 @@ footer{
 <a href="https://github.com/Nadeem-png" class="ml-4 ">
             <i class="fab fa-github text-white" style="font-size: 25px"></i>
         </a>
-    </div>
+    
 </div>
     <div class="col-12 col-lg-5 text-center mt-4 mb-3">
-<div data-aos="zoom-in">
+
     <h6 class="text-white">NADEEM KHAN <span class="text-danger">&copy;2021</span></h6>
     </div>
-</div>
+
     </div>
     
     </div>
