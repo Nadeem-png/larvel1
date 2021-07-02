@@ -167,7 +167,7 @@ header .overlay {
  <u><h3 class="text-center mb-5" >Education</h3></u>
 <div class="row ">
  <div class="col-12 col-lg-6 col-md-6 text-center">
-<img src="{{asset('img/')}}" alt="img" class="img-fluid mb-3">
+<img src="{{asset('img/education.jpg')}}" alt="img" class="img-fluid mb-3">
 </div>
  <div class="col-12 col-lg-6 col-md-6 text-center">
 
