@@ -85,5 +85,8 @@
     </div> -->
 
 @yield('content')
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
