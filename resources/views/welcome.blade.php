@@ -73,8 +73,8 @@ header .overlay {
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
         <h1 class="display-5 mb-2">Nadeem khan WordPress & Web App Development</h1>
-        <p class="lead mb-2">Specializing in custom development, forntend & backend.If you are business seeking website presence or are looking to hire , Contact me.</p>
-     <a href="https://www.linkedin.com/in/nadeem-khan-3b1924207" class="btn btn-warning rounded-pill px-4">LinkedIn</a>
+        <p class="lead mb-3">Specializing in custom development, forntend & backend.If you are business seeking website presence or are looking to hire , Contact me.</p>
+     <a href="https://www.linkedin.com/in/nadeem-khan-3b1924207" class="btn btn-warning rounded-pill px-5 py-2">LinkedIn</a>
   
  </div>
     </div>
