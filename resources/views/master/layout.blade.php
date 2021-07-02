@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <!doctype html>
-<html>
 <head>
    <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,8 +29,47 @@
             z-index:1000;
         
             }
+.back-to-top {
+ position: fixed;
+ bottom: 30px;
+ right: 30px;
+ width: 64px;
+ height: 64px;
+ z-index: 9999;
+ cursor: pointer;
+ text-decoration: none;
+ transition: opacity 0.2s ease-out;
+ background-image: url(top.png);
+}
+
+.back-to-top:hover{
+ opacity: 0.7;
+}
             
     </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ 
+ //Check to see if the window is top if not then display button
+ $(window).scroll(function(){
+  // Show button after 100px
+  var showAfter = 100;
+  if ($(this).scrollTop() > showAfter ) { 
+   $('.back-to-top').fadeIn();
+  } else { 
+   $('.back-to-top').fadeOut();
+  }
+ });
+ 
+ //Click event to scroll to top
+ $('.back-to-top').click(function(){
+  $('html, body').animate({scrollTop : 0},800);
+  return false;
+ });
+ 
+});
+</script>
 </head>
 <body style="">
 <nav class="navbar nav1 fixed-top  navbar-expand-lg"style="height: 70px;background-color:#2f3640 ">
@@ -85,6 +120,8 @@
     </div> -->
 
 @yield('content')
+<!-- Back to top -->
+<a href="#" class="back-to-top">^</a>
 <script>
   AOS.init();
 </script>
