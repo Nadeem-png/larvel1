@@ -32,6 +32,8 @@ footer{
  </video>
  <div class="container container-sm mt-5">
  <u ><h3 class="text-center mb-5" >About</h3></u>
+<div data-aos="fade-up"
+     data-aos-duration="3000">
  <div class="row ">
 <div data-aos="fade-up"
      data-aos-duration="3000">
@@ -39,28 +41,23 @@ footer{
  <a href=""><i class="fas fa-tachometer-alt fa-4x text-dark"></i></a>
  <h4>Fast</h4>
  <p>Fast load time and lag free interaction, my highest priority</p>
- </div>
 </div>
-<div data-aos="fade-up"
-     data-aos-duration="3000">
+
  <div class="col-12 col-lg-3 col-md-6 text-center">
  <a href=""><i class="fas fa-tablet-alt fa-4x text-dark"></i></i></a>
  
  <h4>Responsive</h4>
  <p>My layout will work on any device , large and small.</p>
  </div>
-</div>
-<div data-aos="fade-up"
-     data-aos-duration="3000">
+
  <div class="col-12 col-lg-3 col-md-6 text-center">
  <a href=""><i class="fas fa-layer-group  fa-4x text-dark"></i></a>
  
  <h4>Intuitive</h4>
  <p>Strong preference for easy to use. Intuitive UX/Ui</p>
- </div>
+ 
 </div>
-<div data-aos="fade-up"
-     data-aos-duration="3000">
+
  <div class="col-12 col-lg-3 col-md-6 text-center">
  <a href=""><i class="fas fa-cogs fa-4x text-dark"></i></a>
  
