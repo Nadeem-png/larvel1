@@ -121,6 +121,7 @@ header .overlay {
  <img src="{{asset('img/nadeem.jpeg')}}" alt="" class="img-fluid rounded-circle" height="150px" width="150px">
  <h4 class="mt-3">Who's this guy?</h4>
  <p>Hi,I am Nadeem khan. I am Front-End and Back-end Developer.</p>
+<p>Full stack Developer My role is to write and style the front-end components and back-end components that meet the requirements of our mocks and fulfill our user stories. I also monitor and process pull requests for production deployments.    </p>
  <p>I have Serious passion for UI effects. Animations and creating intuitive, dynamic user experiences</p>
  <p style="color:#079992">Let's Make something special</p>
  </div>
