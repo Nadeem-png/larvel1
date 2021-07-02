@@ -80,6 +80,7 @@ header .overlay {
     </div>
   </div>
 </header>
+<section id="about">
  <div class="container container-sm mt-5">
  <u ><h3 class="text-center mb-5" >About</h3></u>
 <div data-aos="fade-up"
@@ -159,7 +160,8 @@ header .overlay {
  </div>
  </div>
  </div>
-
+</section>
+<section id="portfolio">
  <div class="portfolio">
 <div class="container container-sm">
 <h3 class="text-center py-5 text-white">PORTFOLIO</h3>
@@ -208,8 +210,8 @@ header .overlay {
 </div>
 
 
-
-
+</section>
+<section id="pricing">
 <div class="pricing">
 <div class="container container-sm">
 <h3 class="text-center py-5 text-white">PRICING PER BUILD</h3>
@@ -276,7 +278,8 @@ header .overlay {
 </div>
 
 </div>
- 
+</section>
+ <section id="contact">
     <div class="contactbg">
         <div class="container container-sm mt-5">
 <div data-aos="fade-up"
@@ -316,7 +319,7 @@ header .overlay {
 </div>
         </div>
     </div>
-
+</section>
     <footer class="footor">
     <div class="container container-sm">
     <div class="row">
