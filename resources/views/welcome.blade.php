@@ -130,12 +130,15 @@ header .overlay {
   </video>
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
+<div data-aos="fade-up"
+     data-aos-duration="3000">
       <div class="w-100 text-white">
         <h1 class="display-5 mb-2">Nadeem khan WordPress & Web App Development</h1>
         <p class="lead mb-3">Specializing in custom development, forntend & backend.If you are business seeking website presence or are looking to hire , Contact me.</p>
      <a href="https://www.linkedin.com/in/nadeem-khan-3b1924207" class="btn btn-warning rounded-pill px-5 py-2">LinkedIn</a>
   
  </div>
+</div>
     </div>
   </div>
 </header>
@@ -176,6 +179,8 @@ header .overlay {
  </div>
  </div>
  <div class="container container-sm mt-5">
+<div data-aos="fade-up"
+     data-aos-duration="3000">
  <div class="row">
  <div class="col-12 col-lg-6 text-center mt-4">
  <img src="{{asset('img/nadeem.jpeg')}}" alt="" class="img-fluid rounded-circle" height="150px" width="150px">
@@ -218,6 +223,7 @@ header .overlay {
     </div>
  </div>
  </div>
+</div>
  </div>
 </section>
 
@@ -292,6 +298,8 @@ header .overlay {
     <div class="row">
       <!-- Free Tier -->
       <div class="col-lg-4">
+<div data-aos="fade-up"
+     data-aos-duration="3000">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">BASIC</h5>
@@ -310,9 +318,12 @@ header .overlay {
             <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
           </div>
         </div>
+</div>
       </div>
       <!-- Plus Tier -->
       <div class="col-lg-4">
+<div data-aos="fade-up"
+     data-aos-duration="3000">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">STANDARD</h5>
@@ -331,9 +342,12 @@ header .overlay {
             <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
           </div>
         </div>
+</div>
       </div>
       <!-- Pro Tier -->
       <div class="col-lg-4">
+<div data-aos="fade-up"
+     data-aos-duration="3000">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">PREMIUM</h5>
@@ -352,6 +366,7 @@ header .overlay {
             </ul>
             <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
           </div>
+</div>
         </div>
       </div>
     </div>
