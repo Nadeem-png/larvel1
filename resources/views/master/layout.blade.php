@@ -79,7 +79,7 @@ $(document).ready(function(){
         </a>
     </div>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mynav"><i class="fas fa-bars text-white"></i></button>
-    <hr>
+  
     <div class="navbar-collapse   collapse" id="mynav">
         <ul class="navbar-nav mt-3">
         <li class="nav-item" @yield('nava')>
