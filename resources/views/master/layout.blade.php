@@ -79,9 +79,9 @@ $(document).ready(function(){
         </a>
     </div>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mynav"><i class="fas fa-bars text-white"></i></button>
-    
-    <div class="navbar-collapse mt-5  collapse" id="mynav">
-        <ul class="navbar-nav mt-5">
+    <hr>
+    <div class="navbar-collapse   collapse" id="mynav">
+        <ul class="navbar-nav mt-3">
         <li class="nav-item" @yield('nava')>
                     <a href="/" class="nav-link a1  ml-5 font-weight-bold">Home</a>
                 </li>
