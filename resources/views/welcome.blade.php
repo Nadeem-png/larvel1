@@ -286,25 +286,26 @@ header .overlay {
 
 </section>
 
-<section class="pricing py-5">
+<section class="pricing py-5" id="pricing">
   <div class="container">
+<h3 class="text-center py-5 text-white">PRICING</h3>
     <div class="row">
       <!-- Free Tier -->
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
-            <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+            <h5 class="card-title text-muted text-uppercase text-center">BASIC</h5>
+            <h6 class="card-price text-center">$100<span class="period">/</span></h6>
             <hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited Private Projects</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated Phone Support</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Website Auidit </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Design</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Development</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Upload Content</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Backup</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Analytics</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Live Chat Support</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Search Engine Optimization</li>
             </ul>
             <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
           </div>
@@ -314,18 +315,18 @@ header .overlay {
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
-            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+            <h5 class="card-title text-muted text-uppercase text-center">STANDARD</h5>
+            <h6 class="card-price text-center">$200<span class="period">/</span></h6>
             <hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Website Auidit</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Design</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Development</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Content Upload</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Backup</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Search Engine Optimization</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Live Chat Support</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Analytics</li>
             </ul>
             <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
           </div>
@@ -335,18 +336,19 @@ header .overlay {
       <div class="col-lg-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
-            <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+            <h5 class="card-title text-muted text-uppercase text-center">PREMIUM</h5>
+            <h6 class="card-price text-center">$400<span class="period">/</span></h6>
             <hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free Subdomains</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Website Auidit</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Design</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Development</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Backup</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Analytics</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Live Chat Support</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Search</strong> Engine Optimization</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Content Management System
+</li>
             </ul>
             <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
           </div>
